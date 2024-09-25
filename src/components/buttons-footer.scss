@@ -1,0 +1,80 @@
+button {
+  margin: 0.15rem;
+}
+
+.section__number {
+  color: #1e75db;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.progress {
+  margin: auto;
+  align-items: center;
+  width: 50%;
+}
+
+.progress-bar {
+  height: 100%;
+}
+
+.spinner {
+  margin: auto;
+  border: 4px solid rgba(54, 134, 254, 1);
+  border-radius: 50%;
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.boton {
+  width: 100%;
+  text-decoration: none;
+  background-color: #1e75db;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  transition: 0.2s ease;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid #1e75db;
+
+
+  &--primario{
+    &:hover {
+      background-color: #fff;
+      color: #1e75db;
+      border: 3px solid #1e75db;
+    }
+  }
+
+
+  &--gray{
+    background-color: #8d8d8d;
+    color: #fff;
+    border-color: #8d8d8d;
+
+    &:hover{
+      background-color: #fff;
+      color: #8d8d8d;
+    }
+  }
+
+}

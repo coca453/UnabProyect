@@ -1,0 +1,256 @@
+/* Footer UNAB - Admision */
+
+.footer-content {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  -webkit-font-smoothing: antialiased;
+  background: #181f2c;
+  padding: 4rem 0;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer-content .container {
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  clear: both;
+  display: table;
+}
+
+.footer-content .container-logos {
+  width: 100%;
+  background: #2f3641;
+  padding: 10px;
+  float: left;
+}
+
+.footer-content .logos-area {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.footer-content .w-logo1,
+.footer-content .w-logo2,
+.footer-content .w-logo3,
+.footer-content .w-logo5 {
+  margin: 0 5px;
+}
+
+.footer-content .w-logo4 {
+  margin: 0 24px;
+}
+
+.footer-content .logo1 {
+  width: 230px;
+}
+
+.footer-content .logo2 {
+  width: 180px;
+}
+
+.footer-content .logo3 {
+  width: 145px;
+}
+
+.footer-content .logo4 {
+  width: 64px;
+}
+
+.footer-content .logo5 {
+  width: 145px;
+}
+
+.footer-content .footer-info {
+  width: 49.9%;
+  display: inline-block;
+  border-right: 1px solid #fff;
+  margin-top: 10px;
+  float: left;
+}
+
+.footer-content .footer-info .txt-sn {
+  width: 42%;
+  margin-top: 12px;
+  float: left;
+}
+
+.footer-content .footer-info .txt-sn p {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.footer-content .footer-info .sn-area {
+  width: 58%;
+  padding-top: 40px;
+  float: left;
+}
+
+.footer-content .footer-info .sn-area a.btn-sn {
+  width: 51px;
+  height: 50px;
+  margin-right: 5px;
+  float: left;
+}
+
+.footer-content .footer-info .sn-area a.fb-footer {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp");
+}
+.footer-content .footer-info .sn-area a.fb-footer:hover {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 0 50px;
+}
+
+.footer-content .footer-info .sn-area a.tw-footer {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 174px 0;
+}
+.footer-content .footer-info .sn-area a.tw-footer:hover {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 174px 50px;
+}
+.footer-content .footer-info .sn-area a.ig-footer {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 113px 0;
+}
+.footer-content .footer-info .sn-area a.ig-footer:hover {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 113px 50px;
+}
+.footer-content .footer-info .sn-area a.yt-footer {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 288px 0;
+}
+.footer-content .footer-info .sn-area a.yt-footer:hover {
+  background: url("https://unab.cl/footer-19/img/rsss-footer.webp") 288px 50px;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.footer-content address {
+  font-style: normal;
+}
+
+.footer-content .footer-links {
+  width: 60%;
+  list-style: none;
+  margin-top: 15px;
+  float: left;
+}
+
+.footer-content .footer-links a.links {
+  display: block;
+  color: #fff;
+}
+.footer-content .address {
+  padding-top: 0;
+}
+
+.footer-content .footer-copyright {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-content .logo1 {
+    width: 220px;
+  }
+
+  .footer-content .logo2 {
+    width: 180px;
+  }
+
+  .footer-content .logo3 {
+    width: 150px;
+  }
+
+  .footer-content .logo4 {
+    width: 65px;
+  }
+
+  .footer-content .logo5 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-content .container {
+    width: 97%;
+  }
+
+  .footer-content .container-logos {
+    width: 103%;
+    background: #2f3641;
+    padding: 10px;
+    margin-left: -5px;
+    clear: both;
+  }
+
+  .footer-content .logo1,
+  .footer-content .logo2,
+  .footer-content .logo3,
+  .footer-content .logo4,
+  .footer-content .logo5 {
+    height: 20%;
+  }
+
+  .footer-content .w-logo1,
+  .footer-content .w-logo2,
+  .footer-content .w-logo3,
+  .footer-content .w-logo4,
+  .footer-content .w-logo5 {
+    width: 97%;
+  }
+
+  .footer-content .w-logo4 {
+    margin: 0;
+  }
+
+  .footer-content .footer-info,
+  .footer-content .footer-info .txt-sn,
+  .footer-content .footer-info .sn-area {
+    width: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-content .footer-info .txt-sn {
+    margin: 0;
+  }
+
+  .footer-content .footer-info .txt-sn p {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-content .footer-info .sn-area {
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+  }
+
+  .footer-content .footer-info .sn-area a.btn-sn {
+    height: 51px;
+  }
+
+  .footer-content .footer-links {
+    width: 50%;
+    margin-right: 40px;
+  }
+
+  .footer-content ul.footer-links {
+    margin-left: -20px;
+  }
+
+  .footer-content .footer-copyright {
+    margin-top: 3rem;
+  }
+}

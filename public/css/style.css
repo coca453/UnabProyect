@@ -1,0 +1,336 @@
+/* Footer UNAB - Admision */
+
+.footer-content {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  -webkit-font-smoothing: antialiased;
+  background: #181f2c;
+  padding: 4rem 0;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer-content h4 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer-content .zona-inicia {
+  width: 100%;
+  color: #181f2c;
+  background: #a2a6aa;
+  margin-bottom: 10px;
+  display: table;
+}
+
+.footer-content .zona-inicia .cols-footer {
+  width: 33.3%;
+  padding: 15px 0;
+  float: left;
+}
+
+.footer-content .zona-inicia .cols-footer .cols-links {
+  width: 50%;
+  float: left;
+}
+
+.footer-content .zona-inicia p {
+  margin: 0 0 0 25px;
+}
+
+.footer-content .zona-inicia a {
+  color: #181f2c;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-inicia {
+  width: 46px;
+  height: 45px;
+  margin-right: 5px;
+  float: left;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-fbini {
+  background: url("../img/rrss-inicia.webp") 0;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-ytini {
+  background: url("../img/rrss-inicia.webp") -50px 0;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-igini {
+  background: url("../img/rrss-inicia.webp") -100px 0;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-inini {
+  background: url("../img/rrss-inicia.webp") -150px 0;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-twini {
+  background: url("../img/rrss-inicia.webp") -200px 0;
+}
+
+.footer-content .zona-inicia .zona-rrss-inicia a.btn-waini {
+  background: url("../img/rrss-inicia.webp") -248px 0;
+}
+
+.footer-content .container {
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  clear: both;
+  display: table;
+}
+
+.footer-content .container-logos {
+  width: 100%;
+  background: #2f3641;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.footer-content .logos-area {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.footer-content .w-logo1,
+.footer-content .w-logo2,
+.footer-content .w-logo3,
+.footer-content .w-logo5 {
+  margin: 0 4px;
+}
+
+.footer-content .w-logo4 {
+  margin: 0 10px;
+}
+
+.footer-content .logo1 {
+  width: 250px;
+}
+
+.footer-content .logo2 {
+  width: 180px;
+}
+
+.footer-content .logo3 {
+  width: 140px;
+}
+
+.footer-content .logo4 {
+  width: 120px;
+}
+
+.footer-content .logo5 {
+  width: 140px;
+}
+
+.footer-content .footer-info {
+  width: 49.9%;
+  display: inline-block;
+  border-right: 1px solid #fff;
+  margin-top: 10px;
+  float: left;
+}
+
+.footer-content .footer-info .txt-sn {
+  width: 42%;
+  float: left;
+}
+
+.footer-content .footer-info .txt-sn p {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.footer-content .footer-info .sn-area {
+  width: 58%;
+  padding-top: 40px;
+  float: left;
+}
+
+.footer-content .footer-info .sn-area a.btn-sn {
+  width: 51px;
+  height: 50px;
+  margin-right: 5px;
+  float: left;
+}
+
+.footer-content .footer-info .sn-area a.fb-footer {
+  background: url("../img/rsss-footer.webp");
+}
+.footer-content .footer-info .sn-area a.fb-footer:hover {
+  background: url("../img/rsss-footer.webp") 0 50px;
+}
+
+.footer-content .footer-info .sn-area a.tw-footer {
+  background: url("../img/rsss-footer.webp") 174px 0;
+}
+.footer-content .footer-info .sn-area a.tw-footer:hover {
+  background: url("../img/rsss-footer.webp") 174px 50px;
+}
+.footer-content .footer-info .sn-area a.ig-footer {
+  background: url("../img/rsss-footer.webp") 113px 0;
+}
+.footer-content .footer-info .sn-area a.ig-footer:hover {
+  background: url("../img/rsss-footer.webp") 113px 50px;
+}
+.footer-content .footer-info .sn-area a.yt-footer {
+  background: url("../img/rsss-footer.webp") 288px 0;
+}
+.footer-content .footer-info .sn-area a.yt-footer:hover {
+  background: url("../img/rsss-footer.webp") 288px 50px;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.footer-content address {
+  font-style: normal;
+}
+
+.footer-content .footer-links {
+  width: 60%;
+  list-style: none;
+  margin-top: 15px;
+  float: left;
+}
+
+.footer-content .footer-links a.links {
+  display: block;
+  color: #fff;
+}
+.footer-content .address {
+  padding-top: 14px;
+}
+
+.footer-content .footer-copyright {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-content .logo1 {
+    width: 220px;
+  }
+
+  .footer-content .logo2 {
+    width: 180px;
+  }
+
+  .footer-content .logo3 {
+    width: 150px;
+  }
+
+  .footer-content .logo4 {
+    width: 140px;
+  }
+
+  .footer-content .logo5 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-content .container {
+    width: 97%;
+  }
+
+  .footer-content .zona-inicia {
+    padding: 15px 0;
+  }
+
+  .footer-content .zona-inicia .cols-footer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-content .container-logos {
+    width: 97%;
+    background: #2f3641;
+    padding: 10px;
+    margin-left: 5px;
+    clear: both;
+  }
+
+  .footer-content .logo1,
+  .footer-content .logo2,
+  .footer-content .logo3,
+  .footer-content .logo4,
+  .footer-content .logo5 {
+    height: 20%;
+  }
+
+  .footer-content .w-logo1,
+  .footer-content .w-logo2,
+  .footer-content .w-logo3,
+  .footer-content .w-logo4,
+  .footer-content .w-logo5 {
+    width: 97%;
+  }
+
+  .footer-content .w-logo4 {
+    margin: 0;
+  }
+
+  .footer-content .footer-info,
+  .footer-content .footer-info .txt-sn,
+  .footer-content .footer-info .sn-area {
+    width: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-content .footer-info .txt-sn {
+    margin: 0;
+  }
+
+  .footer-content .footer-info .txt-sn p {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-content .footer-info .sn-area {
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+  }
+
+  .footer-content .footer-info .sn-area a.btn-sn {
+    height: 51px;
+  }
+
+  .footer-content .footer-links {
+    width: 50%;
+    margin-right: 40px;
+  }
+
+  .footer-content ul.footer-links {
+    margin-left: -20px;
+  }
+
+  .footer-content .footer-copyright {
+    margin-top: 3rem;
+  }
+}

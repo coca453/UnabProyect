@@ -1,0 +1,28 @@
+{
+  "short_name": "Simulador de puntaje - UNAB",
+  "manifest_version": 1,
+  "name": "Simulador de puntaje - UNAB",
+  "version": "1.0.0",
+  "description": "Simulador de Puntaje. Aquí podrás simular tus puntajes para el proceso de admisión 2024. Ingresa tus puntajes de la PAES y conoce las Becas y Beneficios",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

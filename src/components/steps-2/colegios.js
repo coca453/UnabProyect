@@ -1,0 +1,16 @@
+export const _COLEGIOS_ = [
+    {id_colegio: 1 , id_comuna: 13103, nombre: 'Colegio 1'},
+    {id_colegio: 2 , id_comuna: 13103, nombre: 'Colegio 2'},
+    {id_colegio: 3 , id_comuna: 1401, nombre: 'Colegio 3' },
+    {id_colegio: 4 , id_comuna: 1402, nombre: 'Colegio 4' },
+    {id_colegio: 5 , id_comuna: 1403, nombre: 'Colegio 5' },
+    {id_colegio: 6 , id_comuna: 1404, nombre: 'Colegio 6'},
+    {id_colegio: 7 , id_comuna: 1405, nombre: 'Colegio 7' },
+    {id_colegio: 8 , id_comuna: 2101, nombre: 'Colegio 8'},
+    {id_colegio: 9 , id_comuna: 2102, nombre: 'Colegio 9'},
+    {id_colegio: 10 , id_comuna: 2103, nombre: 'Colegio 10'},
+    {id_colegio: 11 , id_comuna: 2104, nombre: 'Colegio 11' },
+    {id_colegio: 12 , id_comuna: 2201, nombre: 'Colegio 12' },
+    {id_colegio: 13 , id_comuna: 2202, nombre: 'Colegio 13' },
+    {id_colegio: 14 , id_comuna: 2203, nombre: 'Colegio 14' },
+]

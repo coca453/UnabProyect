@@ -1,0 +1,112 @@
+html {
+  font-size: 1.1vw;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+color: #aabddb;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, ul, p {
+  margin: 0;
+}
+
+ul {
+  padding-top:2% ;
+  padding-bottom: 2%;
+}
+
+li {
+  list-style-type: none;
+}
+a{color: #aabddb;text-decoration: none;}
+a:hover{text-decoration: underline;}
+.container,.container-5{
+  background-color: #1c263c;
+  width:100%;
+  display: flex;
+padding-top: 1%;
+  flex-direction: row;
+  justify-content:space-around;
+  }
+    @media only screen and (max-width: 600px)
+	{  .container, .container-5{
+        background-color: #1c263c;
+        width:100%;
+        display: flex;
+		padding-top: 2%;
+        flex-direction: column;
+        }
+
+    }
+        .container .item{
+
+        font-size: 12px;
+        }
+        .container .item-4{
+
+        flex-basis: 25%
+        }
+        .container .item-4 ul li{
+          display: inline;
+        }
+        .container .item-4 img{
+          margin: 0 10px;
+        }
+        .container-5 .item-5{
+        flex-basis: 75%;
+        }
+        .container-5 .item-5 ul li{
+        display: inline;
+        }
+        .container-5 .item-5 img{
+        margin: 2% 3px;
+        }
+
+        .container-2{
+          background-color: #181f2c;
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-content:space-center;
+          }
+            @media only screen and (max-width: 600px) {  .container-2{
+                background-color: #181f2c;
+                margen: 0 auto;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+
+                }  .container .item{
+				display: none;
+                }
+				 .container-5 .item-5 ul li{
+        display: inline;
+        }
+				.container-5 .item-5 img{
+				width: 10%;
+					height: auto;
+                }
+}
+                .container-2 .item{
+
+                flex-grow: 3;
+                font-size: 13px;
+                }
+                .container-2 .item-3{
+
+                flex-grow: 4;
+                font-size: 13px;
+
+                }
+                .container-2 .item-3 ul{
+                border-left-style: solid;
+                border-width: 2px;
+
+                border-color: #1f2a46;}
